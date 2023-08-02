@@ -116,8 +116,8 @@ leer_lineas()
 
 def grabar_long():
     m = open("datos.txt", 'r')
-    for line in m:
-        print(len(line), end='\n')
+    for linea in m:
+        print(len(linea), end='\n')
 
 
 grabar_long()
