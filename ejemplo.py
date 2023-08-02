@@ -26,16 +26,16 @@ print('Los valores aleatorios son:', random)
 
 
 # Filter crear una lista que contenga solo los mayores a 50 y otra solo los menores o igual a 50
-menor50 = list(
+mayor50 = list(
     filter(
         lambda x:
         x > 50,
         random
     )
 )
-print('Lista mayores a 50: ', menor50)
+print('Lista mayores a 50: ', mayor50)
 
-mayoroigual50 = list(
+menoroigual50 = list(
     filter(
         lambda x:
         x <= 50,
@@ -43,7 +43,7 @@ mayoroigual50 = list(
     )
 )
 
-print('Lista menores o igual a 50: ', mayoroigual50)
+print('Lista menores o igual a 50: ', menoroigual50)
 
 # Map para crear lista que contenga todos los numeros impares pero con el signo invertido (negativos)
 impares = list(
